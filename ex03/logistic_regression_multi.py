@@ -36,7 +36,7 @@ class LogisticRegressionMulti(nn.Module):
 
 # set hyperparameter
 input_size = 400
-output_size = 1000
+output_size = 10
 model = LogisticRegressionMulti(input_size, output_size)
 
 learning_rate = 0.1
